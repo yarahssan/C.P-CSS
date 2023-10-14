@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    padding-top: 4px;
+}
+/*NAV BEGIN*/
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 29px;
+    display: flex;
+}
+b{color: darkgray;}
+span{
+    color: #00C3A5;
+    font-family: Trebuchet MS, sans-serif;
+}
+img{
+    width: 33px;
+    height: 33px;
+}
+.titles{
+    font-family: Trebuchet MS, sans-serif;
+    display: flex;
+    gap: 15px;
+}
+#green{ color: #00C3A5;}
+#grey{ color: darkgray;}
+/*NAV END*/
+
+/*First Body START*/
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.subtitle{
+    color: #00C3A5;
+    font-family: Optima, sans-serif;
+    font-size: 30px;
+    letter-spacing: -0.3px;
+    padding-top: 10px;
+}
+.twop{
+    color: rgb(119, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 60%;
+    justify-content: space-between;
+    gap: 15px;
+}
+/*First Body END*/
+
+.tables{
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 300px;
+    color: #ffffff;
+    font-family: Work Sans, Arial, sans-serif;
+    gap: 20px;
+}
+.tab1{
+    background-color: #00C3A5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    justify-content: space-between;
+    height: 250px;
+}
+.people{
+    width: 25px;
+    height: 25px;
+    background-color: #00C3A5;
+    color: #ffffff;
+}
+#pat{
+    background-color: #00C3A5;
+    font-family: Trebuchet MS, sans-serif;
+
+}
+#finddoc{
+    background-color: #00C3A5;
+    font-family: Trebuchet MS, sans-serif;
+}
+#choose{
+    background-color:#00C3A5;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.tab2{
+    background-color: #0c49b3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    justify-content: space-between;
+    height: 250px;
+    
+}
+.doc{
+    width: 25px;
+    height: 25px;
+    background-color: #0c49b3;
+    color: #ffffff;
+}
+#doctor{
+    background-color: #0c49b3;
+    font-family: Trebuchet MS, sans-serif;
+
+}
+#time{
+    background-color: #0c49b3;
+    font-family: Trebuchet MS, sans-serif;
+}
+#choose2{
+    background-color:#0c49b3;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.tab3{
+    background-color: #08053b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    justify-content: space-between;
+    height: 250px;
+}
+.clinic{
+    width: 25px;
+    height: 25px;
+    background-color: #08053b;
+    color: #ffffff;
+}
+#cli{
+    background-color: #08053b;
+    font-family: Trebuchet MS, sans-serif;
+
+}
+#deliver{
+    background-color: #08053b;
+    font-family: Trebuchet MS, sans-serif;
+}
+#choose3{
+    background-color:#08053b;
+    font-family: Trebuchet MS, sans-serif;
+}
+/*Second Body*/
+.Solos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    color: #00C3A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    font-size: 28px;
+    font-family: Trebuchet MS, sans-serif;
+}
+#sologans{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 55px;
+}
+/*Back START*/
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    background-color: #d0faf4;
+}
+.backheader{
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #d0faf4;
+}
+.backheader h1{
+    color: #00C3A5;
+    padding-left: 10px;
+    background-color: #d0faf4;
+}
+.backheader p{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+    background-color: #d0faf4;
+}
+#logoback{
+    width: 70%;
+    height: 50%;
+    background-color: #d0faf4;
+}
+.square{
+    display: flex;
+    margin-right: 50px;
+    height: 10%;
+    justify-content: space-around;
+    margin-left: 100px;
+    background-color: #d0faf4;
+}
+.square div{
+    height: 250px;
+    width: 280px;
+    background-color: #d0faf4;
+
+}
+#leader img{
+    width: 25px;
+    height: 25px;
+}
+#sick img{
+    width: 25px;
+    height: 25px;
+}
+#date img{
+    width: 25px;
+    height: 25px;
+}
+#pro img{
+    width: 25px;
+    height: 25px;
+}
+#leader, #sick, #date, #pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    margin: 20px;
+    
+}
+
+/*Back END*/
+
+/*Start*/
+.part5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+.part5 h3{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.part5 p{
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+/*End*/
+
+/*Pic START*/
+.world{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
+}
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.column img{
+    width: 300px;
+    height: 200px;
+}
+.world div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div .button{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/*Pic END*/
+
+/*PreFinal START*/
+.prefinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prefinal h1{
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 12px;
+    font-family: Work Sans, Arial, sans-serif;
+    text-align: center;
+}
+.prefinal button{
+    margin-left: 180px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+}
+/*PreFinal END*/
+/*END START*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer p{
+    padding-top: 20px;
+}
+/*END*/
